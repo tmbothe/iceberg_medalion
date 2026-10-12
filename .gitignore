@@ -1,0 +1,56 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# AWS credentials / secrets — NEVER commit these
+.env
+.env.*
+*.pem
+*.key
+aws_credentials
+credentials
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Terraform / CDK state
+*.tfstate
+*.tfstate.backup
+.terraform/
+cdk.out/
+
+# Large data files (stored in S3, not git)
+data/**/*.parquet
+data/**/*.orc
+data/**/*.avro
+
+# Glue temp / Spark output
+spark-warehouse/
+derby.log
+metastore_db/
+
+# Claude Code internal
+.claude/settings.local.json

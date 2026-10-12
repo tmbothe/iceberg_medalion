@@ -1,0 +1,90 @@
+[
+  {
+    "supplier_id": "SUP001",
+    "supplier_machine_id": "M001",
+    "supplier_details": [
+      {"detail_key": "company_name", "detail_value": "TechRobotics Inc."},
+      {"detail_key": "country", "detail_value": "USA"},
+      {"detail_key": "contact_email", "detail_value": "sales@techrobotics.com"},
+      {"detail_key": "lead_time_days", "detail_value": "30"},
+      {"detail_key": "rating", "detail_value": "4.8"}
+    ]
+  },
+  {
+    "supplier_id": "SUP001",
+    "supplier_machine_id": "M003",
+    "supplier_details": [
+      {"detail_key": "company_name", "detail_value": "TechRobotics Inc."},
+      {"detail_key": "country", "detail_value": "USA"},
+      {"detail_key": "contact_email", "detail_value": "sales@techrobotics.com"},
+      {"detail_key": "lead_time_days", "detail_value": "30"},
+      {"detail_key": "rating", "detail_value": "4.8"}
+    ]
+  },
+  {
+    "supplier_id": "SUP002",
+    "supplier_machine_id": "M002",
+    "supplier_details": [
+      {"detail_key": "company_name", "detail_value": "ConveyorTech Ltd."},
+      {"detail_key": "country", "detail_value": "Germany"},
+      {"detail_key": "contact_email", "detail_value": "info@conveyortech.de"},
+      {"detail_key": "lead_time_days", "detail_value": "45"},
+      {"detail_key": "rating", "detail_value": "4.5"}
+    ]
+  },
+  {
+    "supplier_id": "SUP002",
+    "supplier_machine_id": "M005",
+    "supplier_details": [
+      {"detail_key": "company_name", "detail_value": "ConveyorTech Ltd."},
+      {"detail_key": "country", "detail_value": "Germany"},
+      {"detail_key": "contact_email", "detail_value": "info@conveyortech.de"},
+      {"detail_key": "lead_time_days", "detail_value": "45"},
+      {"detail_key": "rating", "detail_value": "4.5"}
+    ]
+  },
+  {
+    "supplier_id": "SUP003",
+    "supplier_machine_id": "M004",
+    "supplier_details": [
+      {"detail_key": "company_name", "detail_value": "PaintSystems Corp."},
+      {"detail_key": "country", "detail_value": "Japan"},
+      {"detail_key": "contact_email", "detail_value": "supply@paintsystems.jp"},
+      {"detail_key": "lead_time_days", "detail_value": "60"},
+      {"detail_key": "rating", "detail_value": "4.2"}
+    ]
+  },
+  {
+    "supplier_id": "SUP003",
+    "supplier_machine_id": "M007",
+    "supplier_details": [
+      {"detail_key": "company_name", "detail_value": "PaintSystems Corp."},
+      {"detail_key": "country", "detail_value": "Japan"},
+      {"detail_key": "contact_email", "detail_value": "supply@paintsystems.jp"},
+      {"detail_key": "lead_time_days", "detail_value": "60"},
+      {"detail_key": "rating", "detail_value": "4.2"}
+    ]
+  },
+  {
+    "supplier_id": "SUP004",
+    "supplier_machine_id": "M006",
+    "supplier_details": [
+      {"detail_key": "company_name", "detail_value": "PrecisionTools GmbH"},
+      {"detail_key": "country", "detail_value": "Germany"},
+      {"detail_key": "contact_email", "detail_value": "orders@precisiontools.de"},
+      {"detail_key": "lead_time_days", "detail_value": "21"},
+      {"detail_key": "rating", "detail_value": "4.9"}
+    ]
+  },
+  {
+    "supplier_id": "SUP004",
+    "supplier_machine_id": "M008",
+    "supplier_details": [
+      {"detail_key": "company_name", "detail_value": "PrecisionTools GmbH"},
+      {"detail_key": "country", "detail_value": "Germany"},
+      {"detail_key": "contact_email", "detail_value": "orders@precisiontools.de"},
+      {"detail_key": "lead_time_days", "detail_value": "21"},
+      {"detail_key": "rating", "detail_value": "4.9"}
+    ]
+  }
+]

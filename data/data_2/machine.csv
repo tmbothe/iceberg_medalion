@@ -1,0 +1,10 @@
+machine_id,machine_name,machine_type,supplier_id,status,purchase_date,capacity_per_hour,last_maintenance_date
+M001,Assembly Robot AR-100,Robotic Arm,SUP001,Active,2019-03-15,120,2024-01-01
+M002,Conveyor Belt CB-200,Conveyor,SUP002,Active,2020-05-20,500,2024-01-10
+M003,Welding Unit WU-300,Welder,SUP001,Active,2021-01-10,80,2024-02-10
+M004,Paint Sprayer PS-400,Painter,SUP003,Active,2018-08-25,60,2024-02-01
+M005,Quality Scanner QS-500,Scanner,SUP002,Active,2022-06-15,200,2024-01-05
+M006,Torque Wrench TW-600,Manual Tool,SUP004,Active,2023-03-01,100,2024-01-08
+M007,Drill Press DP-700,Drill,SUP003,Active,2020-11-18,90,2024-02-15
+M008,Laser Cutter LC-800,Cutter,SUP004,Active,2017-04-30,150,2024-02-20
+M009,Inspection Camera IC-900,Scanner,SUP002,Active,2024-01-20,300,2024-02-25

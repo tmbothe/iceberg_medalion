@@ -1,0 +1,97 @@
+[
+  {
+    "oplog_id": "OL011",
+    "work_order_id": "WO011",
+    "machine_id": "M009",
+    "workstation_id": "WS05",
+    "material_id": "MAT004",
+    "start_time": "2024-02-01T08:00:00",
+    "end_time": "2024-02-01T09:00:00",
+    "status": "Completed",
+    "work_order_details": {
+      "operator_id": "OP009",
+      "operation_type": "Inspection",
+      "quantity_processed": 200,
+      "defects_found": 3,
+      "defect_type": "Visual Defect",
+      "quality_score": 98.5,
+      "notes": "3 units with cosmetic defects flagged"
+    }
+  },
+  {
+    "oplog_id": "OL012",
+    "work_order_id": "WO012",
+    "machine_id": "M004",
+    "workstation_id": "WS01",
+    "material_id": "MAT007",
+    "start_time": "2024-02-01T09:30:00",
+    "end_time": "2024-02-01T11:30:00",
+    "status": "Completed",
+    "work_order_details": {
+      "operator_id": "OP010",
+      "operation_type": "Painting",
+      "quantity_processed": 75,
+      "defects_found": 0,
+      "defect_type": null,
+      "quality_score": 100.0,
+      "notes": "Perfect paint application"
+    }
+  },
+  {
+    "oplog_id": "OL013",
+    "work_order_id": "WO013",
+    "machine_id": "M008",
+    "workstation_id": "WS04",
+    "material_id": "MAT002",
+    "start_time": "2024-02-01T12:00:00",
+    "end_time": "2024-02-01T14:30:00",
+    "status": "Completed",
+    "work_order_details": {
+      "operator_id": "OP008",
+      "operation_type": "Cutting",
+      "quantity_processed": 90,
+      "defects_found": 1,
+      "defect_type": "Edge Burr",
+      "quality_score": 98.9,
+      "notes": "Laser cutter now repaired - 1 unit with edge burr"
+    }
+  },
+  {
+    "oplog_id": "OL014",
+    "work_order_id": "WO014",
+    "machine_id": "M001",
+    "workstation_id": "WS04",
+    "material_id": "MAT009",
+    "start_time": "2024-02-02T08:00:00",
+    "end_time": "2024-02-02T10:00:00",
+    "status": "Completed",
+    "work_order_details": {
+      "operator_id": "OP007",
+      "operation_type": "Assembly",
+      "quantity_processed": 100,
+      "defects_found": 2,
+      "defect_type": "Bearing Misalignment",
+      "quality_score": 98.0,
+      "notes": "2 bearing assemblies required re-press"
+    }
+  },
+  {
+    "oplog_id": "OL015",
+    "work_order_id": "WO015",
+    "machine_id": "M005",
+    "workstation_id": "WS05",
+    "material_id": "MAT010",
+    "start_time": "2024-02-02T10:30:00",
+    "end_time": "2024-02-02T12:00:00",
+    "status": "Completed",
+    "work_order_details": {
+      "operator_id": "OP009",
+      "operation_type": "Quality Check",
+      "quantity_processed": 50,
+      "defects_found": 5,
+      "defect_type": "Firmware Error",
+      "quality_score": 90.0,
+      "notes": "5 control modules failed firmware verification"
+    }
+  }
+]

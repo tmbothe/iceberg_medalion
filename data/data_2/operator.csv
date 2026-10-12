@@ -1,0 +1,11 @@
+operator_id,operator_name,workstation_id,skill_level,hire_date,shift,status
+OP001,John Smith,WS01,Senior,2020-01-15,Morning,Active
+OP002,Maria Garcia,WS01,Mid,2021-03-10,Afternoon,Active
+OP003,David Lee,WS02,Senior,2019-07-22,Afternoon,Active
+OP004,Sarah Johnson,WS02,Mid,2022-01-05,Night,Active
+OP005,Robert Brown,WS03,Senior,2018-11-30,Morning,Active
+OP006,Emily Wilson,WS03,Junior,2023-02-14,Afternoon,Active
+OP007,James Taylor,WS04,Senior,2021-09-01,Morning,Active
+OP008,Linda Martinez,WS04,Senior,2020-06-18,Night,Active
+OP009,Kevin Anderson,WS05,Junior,2024-03-10,Morning,Active
+OP010,Nancy White,WS05,Mid,2024-03-15,Afternoon,Active

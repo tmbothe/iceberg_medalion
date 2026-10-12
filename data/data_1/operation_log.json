@@ -1,0 +1,192 @@
+[
+  {
+    "oplog_id": "OL001",
+    "work_order_id": "WO001",
+    "machine_id": "M001",
+    "workstation_id": "WS01",
+    "material_id": "MAT001",
+    "start_time": "2024-01-15T08:00:00",
+    "end_time": "2024-01-15T09:30:00",
+    "status": "Completed",
+    "work_order_details": {
+      "operator_id": "OP001",
+      "operation_type": "Assembly",
+      "quantity_processed": 50,
+      "defects_found": 2,
+      "defect_type": "Surface Scratch",
+      "quality_score": 96.0,
+      "notes": "Minor surface defects on batch"
+    }
+  },
+  {
+    "oplog_id": "OL002",
+    "work_order_id": "WO002",
+    "machine_id": "M002",
+    "workstation_id": "WS01",
+    "material_id": "MAT002",
+    "start_time": "2024-01-15T09:30:00",
+    "end_time": "2024-01-15T11:00:00",
+    "status": "Completed",
+    "work_order_details": {
+      "operator_id": "OP002",
+      "operation_type": "Transport",
+      "quantity_processed": 200,
+      "defects_found": 0,
+      "defect_type": null,
+      "quality_score": 100.0,
+      "notes": "Smooth batch transport"
+    }
+  },
+  {
+    "oplog_id": "OL003",
+    "work_order_id": "WO003",
+    "machine_id": "M003",
+    "workstation_id": "WS02",
+    "material_id": "MAT001",
+    "start_time": "2024-01-15T10:00:00",
+    "end_time": "2024-01-15T12:30:00",
+    "status": "Completed",
+    "work_order_details": {
+      "operator_id": "OP003",
+      "operation_type": "Welding",
+      "quantity_processed": 40,
+      "defects_found": 5,
+      "defect_type": "Weld Porosity",
+      "quality_score": 87.5,
+      "notes": "Porosity detected in 5 units, sent for rework"
+    }
+  },
+  {
+    "oplog_id": "OL004",
+    "work_order_id": "WO004",
+    "machine_id": "M005",
+    "workstation_id": "WS02",
+    "material_id": "MAT004",
+    "start_time": "2024-01-15T13:00:00",
+    "end_time": "2024-01-15T14:00:00",
+    "status": "Completed",
+    "work_order_details": {
+      "operator_id": "OP004",
+      "operation_type": "Quality Check",
+      "quantity_processed": 100,
+      "defects_found": 3,
+      "defect_type": "Circuit Fault",
+      "quality_score": 97.0,
+      "notes": "3 circuit boards failed electrical test"
+    }
+  },
+  {
+    "oplog_id": "OL005",
+    "work_order_id": "WO005",
+    "machine_id": "M006",
+    "workstation_id": "WS03",
+    "material_id": "MAT006",
+    "start_time": "2024-01-15T14:30:00",
+    "end_time": "2024-01-15T16:00:00",
+    "status": "Completed",
+    "work_order_details": {
+      "operator_id": "OP005",
+      "operation_type": "Fastening",
+      "quantity_processed": 300,
+      "defects_found": 0,
+      "defect_type": null,
+      "quality_score": 100.0,
+      "notes": "All fasteners applied to torque specification"
+    }
+  },
+  {
+    "oplog_id": "OL006",
+    "work_order_id": "WO006",
+    "machine_id": "M007",
+    "workstation_id": "WS03",
+    "material_id": "MAT002",
+    "start_time": "2024-01-16T08:00:00",
+    "end_time": "2024-01-16T10:00:00",
+    "status": "Completed",
+    "work_order_details": {
+      "operator_id": "OP006",
+      "operation_type": "Drilling",
+      "quantity_processed": 80,
+      "defects_found": 4,
+      "defect_type": "Dimensional Variance",
+      "quality_score": 95.0,
+      "notes": "4 units with hole diameter out of tolerance"
+    }
+  },
+  {
+    "oplog_id": "OL007",
+    "work_order_id": "WO007",
+    "machine_id": "M001",
+    "workstation_id": "WS04",
+    "material_id": "MAT003",
+    "start_time": "2024-01-16T10:30:00",
+    "end_time": "2024-01-16T12:30:00",
+    "status": "Completed",
+    "work_order_details": {
+      "operator_id": "OP007",
+      "operation_type": "Sealing",
+      "quantity_processed": 150,
+      "defects_found": 1,
+      "defect_type": "Seal Misalignment",
+      "quality_score": 99.3,
+      "notes": "One seal misaligned, replaced on line"
+    }
+  },
+  {
+    "oplog_id": "OL008",
+    "work_order_id": "WO008",
+    "machine_id": "M008",
+    "workstation_id": "WS04",
+    "material_id": "MAT008",
+    "start_time": "2024-01-16T13:00:00",
+    "end_time": "2024-01-16T15:30:00",
+    "status": "Failed",
+    "work_order_details": {
+      "operator_id": "OP008",
+      "operation_type": "Cutting",
+      "quantity_processed": 30,
+      "defects_found": 30,
+      "defect_type": "Machine Malfunction",
+      "quality_score": 0.0,
+      "notes": "Laser cutter malfunction - entire batch scrapped"
+    }
+  },
+  {
+    "oplog_id": "OL009",
+    "work_order_id": "WO009",
+    "machine_id": "M004",
+    "workstation_id": "WS01",
+    "material_id": "MAT007",
+    "start_time": "2024-01-17T08:00:00",
+    "end_time": "2024-01-17T10:00:00",
+    "status": "In Progress",
+    "work_order_details": {
+      "operator_id": "OP001",
+      "operation_type": "Painting",
+      "quantity_processed": 60,
+      "defects_found": 2,
+      "defect_type": "Paint Run",
+      "quality_score": 96.7,
+      "notes": "Minor paint runs on 2 units"
+    }
+  },
+  {
+    "oplog_id": "OL010",
+    "work_order_id": "WO010",
+    "machine_id": "M005",
+    "workstation_id": "WS02",
+    "material_id": "MAT005",
+    "start_time": "2024-01-17T10:30:00",
+    "end_time": "2024-01-17T11:30:00",
+    "status": "Completed",
+    "work_order_details": {
+      "operator_id": "OP003",
+      "operation_type": "Fluid Fill",
+      "quantity_processed": 120,
+      "defects_found": 0,
+      "defect_type": null,
+      "quality_score": 100.0,
+      "notes": "Hydraulic fluid filled to specification"
+    }
+  }
+]

@@ -1,0 +1,11 @@
+material_id,material_name,material_type,supplier_id,unit_cost,unit_of_measure,stock_quantity,reorder_level
+MAT001,Steel Sheet 2mm,Raw Material,SUP001,45.50,kg,5000,500
+MAT002,Aluminum Plate 5mm,Raw Material,SUP002,62.00,kg,3000,300
+MAT003,Rubber Seal Type-A,Component,SUP003,13.50,unit,10000,1000
+MAT004,Circuit Board CB-100,Electronic,SUP004,150.00,unit,500,50
+MAT005,Hydraulic Fluid HF-5,Consumable,SUP002,8.25,liter,2000,200
+MAT006,Fastener Set M10,Hardware,SUP001,5.75,set,25000,2500
+MAT007,Paint Coat Blue,Consumable,SUP003,35.00,kg,1000,100
+MAT008,Wire Harness WH-200,Electronic,SUP004,235.00,unit,300,30
+MAT009,Bearing Assembly BA-50,Component,SUP001,28.00,unit,800,80
+MAT010,Control Module CM-10,Electronic,SUP004,175.00,unit,200,20
